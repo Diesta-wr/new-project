@@ -1,16 +1,43 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 iPhone Contacts App
+Интерактивное веб-приложение в стиле iOS, демонстрирующее работу с API пользователей в реалистичном iPhone-мок апе.
+✨ Особенности
+🍎 Boot Screen — анимация загрузки с логотипом Apple
+📱 Реалистичный iPhone 15 Pro — рамки, кнопки, Dynamic Island, тени
+🏠 Домашний экран — 16 иконок приложений + Dock в стиле iOS
+👥 Приложение "ТЗ" — единственное рабочее приложение
+🔍 Поиск — фильтрация по имени, email, городу
+📊 Сортировка — по имени или городу
+⊞☰ Два режима — сетка и список
+🟢 Онлайн статусы — плавно меняются каждые 3-7 секунд
+⚠️ Обработка ошибок — 30% шанс ошибки при загрузке + красивый экран
+🎨 Tailwind CSS — современный подход к стилям
+🔄 Параллакс эффект — фон реагирует на движение мыши
+🛠 Технологический стек
+Технология
+Версия
+React
+18+
+Tailwind CSS
+4+
+Vite
+5+
+JavaScript
+ES6+
+📋 Требования из ТЗ
+✅ GET-запрос к https://jsonplaceholder.typicode.com/users
+✅ Карточки пользователей (имя, email, город, телефон)
+✅ Поле поиска для фильтрации
+✅ Сортировка (по имени или городу)
+✅ Индикатор загрузки (лоадер)
+✅ Обработка ошибок сети
+🎮 Как использовать
+Запустите проект — откроется заставка Apple (3.5 сек)
+Домашний экран — увидите иконки приложений
+Найдите иконку "ТЗ" 👥 (3-й ряд, 1-я слева)
+Кликните — откроется приложение с пользователями
+Используйте функции:
+🔍 Поиск по имени/email/городу
+📊 Сортировка по имени или городу
+⊞☰ Переключение сетка/список
+🔄 Обновите страницу — 30% шанс увидеть экран ошибки
+← Кнопка "Назад" вернёт на домашний экран
